@@ -1,0 +1,30 @@
+ion-label {
+  --background: linear-gradient(89.08deg, #e65b1c 0.38%, #e5811f 99.82%);
+  --background-activated: #e65b1c;
+  --background-focused: #e65b1c;
+
+  --color: #fff;
+  --color-focused: #fff;
+  --color-activated: #fff;
+
+  --border-radius: 8px;
+  --border-color: #000;
+  --border-width: 0;
+
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --padding-start: auto;
+  --padding-end: auto;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+}
+ion-label.ion-activated {
+  --background: linear-gradient(89.08deg, #c9490f 0.38%, #d36900 99.82%);
+}
+
+ion-label.label-disabled {
+  --background: #616161;
+  --color: #2b2b2d;
+  cursor: not-allowed;
+  pointer-events: none;
+}
